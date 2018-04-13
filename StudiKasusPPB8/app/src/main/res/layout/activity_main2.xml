@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/Activity_vertical_margin"
+    android:paddingTop="@dimen/Activity_vertical_margin"
+    android:paddingLeft="@dimen/Activity_horizontal_margin"
+    android:paddingRight="@dimen/Activity_horizontal_margin"
+    tools:context="com.example.jakaria.studikasusppb8.Main2Activity" >
+
+    <LinearLayout
+        android:id="@+id/parent6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Bukti Pemesanan Rental Mobil Jaya Makmur "
+            android:layout_marginTop="40dp"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:id="@+id/parent7"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Nama Pemesan  : "
+                android:inputType="text"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/PSN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:text="Nama Pemesan"
+                android:inputType="text"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/parent8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Kendaraan           : "
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/KDN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:text="Kendaraan"
+                android:inputType="text"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/parent9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="Jam Rental          : "
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/JM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:text="Jam Rental"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:inputType="text"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/parent10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Tanggal Rental   : "
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/TGL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:text="Tanggal Rental"
+                android:inputType="text"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
